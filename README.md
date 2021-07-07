@@ -8,4 +8,6 @@
 
 4.finally upload "face-mask-detector" folder on your google drive.
 
-5.then, 
+5.then, copy paste the "colab_file" code on your google colab
+
+6.and just run it
