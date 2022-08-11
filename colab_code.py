@@ -1,15 +1,4 @@
 from google.colab import drive
-drive.mount('/content/MyDrive')
-
-project_path = '/content/drive/MyDrive/'
-training_zip_path = project_path + 'face-mask-detector.zip'
-from zipfile import ZipFile
-
-with ZipFile(training_zip_path, 'r') as z:
-  z.extractall()
-print("Training zip extraction done!")
-
-from google.colab import drive
 drive.mount('/content/drive')
 
 %cd /content/face-mask-detector
